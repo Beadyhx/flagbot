@@ -6,6 +6,7 @@ bot rerutns requested flags only to admins
 ```
 pip install pyTelegramBotAPI
 pip install asyncio
+pip install mysql-connector-python
 ```
 Your mysql db should contain events and flags tables.
 Fill config.py file with credentials for mysql db, your bot token and telegram usernames of your team admins
